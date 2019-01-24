@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+.DS_Store
+
 # User-specific files
 *.suo
 *.user
@@ -15,14 +17,16 @@
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+#[Rr]elease/
+#[Rr]eleases/
 x64/
 x86/
 bld/
-[Bb]in/
+#[Bb]in/
 [Oo]bj/
 [Ll]og/
+**/[Bb]in/**/[Rr]elease/*.app
+**/[Bb]in/**/[Rr]elease/*.xml
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
